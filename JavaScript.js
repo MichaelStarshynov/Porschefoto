@@ -80,14 +80,14 @@ document.body.appendChild(content);
 const pages = {
   home: {
     title: "Welcome at the world of Porsche!",
-    text: 'Hello! I am Michael, a fan of Porsche. I am 13-year-old programmer, that created <a href="https://michaelstarshynov.github.io/car-dima/" target="_blank">this</a> site.'
+    text: 'Thism site is going about collection of fotos, where you can fin me and the porsche car.'
   },
   gallery: {
     title: "Porsche foto's:"
   },
   about: {
     title: "This site is made to show growing collection of my photos with Porsche",
-    text: "Halo!"
+    text: 'More about my you can find here'
   }
 };
 
