@@ -124,18 +124,17 @@ const content = document.createElement('div');
 content.id = 'content';
 document.body.appendChild(content);
 
-// Страницы
 const pages = {
   home: {
     title: "Welcome at the world of Porsche!",
-    text: 'This site is going about collection of fotos, where you can fin me and the porsche car.'
+    text: `Welcome at the site world of Porsches! <br><br><button onclick="showPage('gallery')">Go to gallery</button>`
   },
   gallery: {
     title: "Porsche foto's:"
   },
   about: {
     title: "This site is made to show growing collection of my photos with Porsche",
-    text: 'More about my you can find here'
+    text: `Hi! My name is Michael, and I live in the Netherlands. I’m passionate about exploring new things and constantly developing my skills. One of my biggest passions is photographing Porsche cars — capturing their design, details, and the unique feeling they create. I enjoy creating projects, turning ideas into real experiences, whether it’s websites, applications, or visual concepts. I love experimenting with photography, design, and digital projects, always looking for innovative ways to showcase beauty and precision. I believe knowledge and skills are powerful tools, and I aim to use them to create something meaningful and visually striking. In the future, I want to continue learning, exploring new technologies, and bringing my creative ideas to life. If you want to know about my projects, you can find them <a href="https://snapcars.netlify.app/">here</a> and <a href="https://shakhtarfanclub.netlify.app/">here</a>.`
   }
 };
 

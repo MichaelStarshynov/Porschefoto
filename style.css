@@ -137,7 +137,7 @@ section#contact {
     line-height: 1.6;
     color: #ddd;
     margin-top: 15px;
-    text-align: justify;
+    text-align: center;
 }
 
 img :hover {
@@ -192,15 +192,12 @@ img :hover {
 }
 
 .page-text {
-    font-family: Georgia, serif;
-    font-size: 1.15em;
-    line-height: 1.8;
-    color: #222;
-    padding: 20px;
-    background: #fff;
-    border-left: 5px solid #c00;
-    margin: 20px auto;
-    max-width: 800px;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #ddd;
+    margin-top: 15px;
+    text-align: center;
+
 }
 
 #content {
@@ -229,4 +226,69 @@ img :hover {
     line-height: 1.6;
     text-align: center;
     font-size: 1.1rem;
+}
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+  background: #111; /* темный фон в стиле Porsche */
+  color: #f5f5f5;
+}
+
+.about-container {
+  max-width: 800px;
+  text-align: center;
+  line-height: 1.8;
+  background: rgba(255, 255, 255, 0.03); /* легкая прозрачность */
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+}
+
+.about h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #e60000; /* красный акцент Porsche */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.about p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.about p:last-child {
+  margin-bottom: 0;
+}
+a {
+  color: #800020;
+}
+button {
+  background-color: #800020; /* насыщенный красный */
+  color: #ffffff;           /* белый текст */
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Эффект при наведении */
+button:hover {
+  background-color: #a9131f; /* чуть темнее красного */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+}
+
+/* Эффект при нажатии */
+button:active {
+  transform: translateY(1px);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.3);
 }
