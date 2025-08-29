@@ -25,7 +25,8 @@ const cars = [
     speed: "5,5",
     extraImg: [
       "https://i.postimg.cc/jjK69r1Z/69039366-ecbc-4d9b-ad72-043798c4c988.jpg",
-      "https://i.postimg.cc/44M6GcMK/bfa759a7-ca9c-422c-8383-8cd7eb6eb0ec.jpg"
+      "https://i.postimg.cc/44M6GcMK/bfa759a7-ca9c-422c-8383-8cd7eb6eb0ec.jpg",
+      "https://i.postimg.cc/HWvBxgzL/1f8f04b4-6409-4342-bb4a-29f1c6d171e6.jpg"
     ]
   },
   {
@@ -41,7 +42,8 @@ const cars = [
     extraImg: [
       "https://i.postimg.cc/02KygKRy/999ff8a9-d2d5-40f7-bf27-a40170fd6e5d.jpg",
        "https://i.postimg.cc/qRkWNnhK/422d882d-4995-4f8b-853e-31e4771cc83b.jpg",
-       "https://i.postimg.cc/xCTFf2hy/bbf5ccbd-b647-4b96-b44c-339aed651966.jpg"
+       "https://i.postimg.cc/xCTFf2hy/bbf5ccbd-b647-4b96-b44c-339aed651966.jpg",
+       "https://i.postimg.cc/brrgTCy8/83f7693e-731a-4094-8541-a4c7729b8d69.jpg",
     ]
   },
   {
