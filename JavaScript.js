@@ -1,7 +1,7 @@
 const cars = [
   {
     name: "Porsche Taycan",
-    image: "https://i.postimg.cc/SRWCVTGw/e1849bfa-ec4c-4f2b-aca5-76cf490089a5.jpg",
+    image: "https://i.postimg.cc/kXpmv0Tj/f0657ed7-0f53-4119-8ff6-683e62fb67a0-Photoroom.jpg",
     details: "The Porsche Taycan is a fully electric luxury sports car made by Porsche. It was first introduced in 2019 as Porsche’s answer to the future of electric driving. The Taycan has a sleek, aerodynamic design and offers incredible acceleration, going from 0 to 100 km/h in under 3 seconds. It runs on powerful electric motors and has a high-tech battery that provides a long driving range. The Taycan proves that electric cars can be both fast and exciting, without any emissions.",
     number: "150 000",
     capacity: "5 people",
@@ -31,7 +31,7 @@ const cars = [
   },
   {
     name: "Porsche Panamera",
-    image: "https://i.postimg.cc/nccVyj3C/927da486-0c77-49bc-b0a7-87216567ac0a.jpg",
+    image: "https://i.postimg.cc/26DmBn0r/9b0d1310-2500-40fe-9568-69a32dd8565b-Photoroom.jpg",
     details: "The black Porsche Panamera in the photo exudes elegance and power. Its sleek, aerodynamic design and bold front end make it instantly recognizable. Large alloy wheels and signature headlights highlight its sporty character. Sunlight reflecting off the body emphasizes the car’s luxurious finish. This Panamera perfectly blends performance with prestige, standing out even when parked.",
      number: "about 230 thousand",
     capacity: "5 people",
@@ -48,7 +48,7 @@ const cars = [
   },
   {
     name: "Porsche Cayenne",
-    image: "https://i.postimg.cc/Cxv69HwD/1000045155.jpg",
+    image: "https://i.postimg.cc/L6CH0Y83/1000045155-Photoroom.jpg",
     details: "The Porsche Cayenne is a luxury SUV that combines sporty performance with everyday practicality. It features powerful engine options, including turbocharged V6s, V8s, and plug-in hybrids. With sharp handling and a refined interior, it delivers a true Porsche driving experience. The Cayenne accelerates quickly and offers advanced technology and safety features. It’s a versatile choice for drivers who want both comfort and excitement.",
      number: "about 400 thousand",
     capacity: "5 people",
@@ -64,7 +64,7 @@ const cars = [
   },
   {
     name: "Porsche 911 Carrera S",
-    image: "https://i.postimg.cc/52YQYkGR/0.jpg",
+    image: "https://i.postimg.cc/QthGMhMM/0-Photoroom.jpg",
     details: "Porsche 911 Carrera S is a perfect blend of everyday comfort and sports car performance. It features a 3.0-liter twin-turbo boxer engine delivering 480 horsepower and accelerating from 0 to 100 km/h in just 3.3 seconds. The sleek design, wide stance, and signature headlights give it a timeless yet aggressive look. Inside, the cabin offers advanced tech, premium materials, and a driver-focused layout. Whether on winding roads or city streets, the Carrera S delivers precision, excitement, and unmistakable Porsche character.",
       number: "about 200 thousand",
     capacity: "4 people",
@@ -80,7 +80,7 @@ const cars = [
   },
   {
     name: "Porsche Macan",
-    image: "https://i.postimg.cc/xd4PL0mb/515125fb-2d7f-4592-a3bc-818e142bf47a.jpg",
+    image: "https://i.postimg.cc/cCLpQhwy/515125fb-2d7f-4592-a3bc-818e142bf47a-Photoroom.jpg",
     details: "The Porsche Macan is a compact luxury SUV that blends everyday practicality with true sports car performance. Originally launched in 2014, it quickly became Porsche’s best-selling model worldwide. The Macan offers a range of powerful engines, including turbocharged V6s and fully electric variants, with acceleration as quick as 3.3 seconds from 0 to 100 km/h. Its sleek, coupe-like design and precise handling deliver a dynamic driving experience. Inside, the Macan features premium materials, advanced infotainment, and a driver-focused layout that reflects Porsche’s racing heritage.",
     number: "about 350 thousand",
     capacity: "5 people",
@@ -94,7 +94,7 @@ const cars = [
   },
   {
     name: "Porsche Panamera S-Turbo",
-    image: "https://i.postimg.cc/fTpFdSkb/3abfff08-bd1a-4406-acbd-e81afa08d94b.jpg",
+    image: "https://i.postimg.cc/8Pj8cyTL/3abfff08-bd1a-4406-acbd-e81afa08d94b-Photoroom.jpg",
     details: "The Porsche Panamera Turbo S is a high-performance luxury sedan that blends speed with sophistication. It features a 4.0-liter twin-turbo V8 engine producing up to 690 horsepower in the E-Hybrid version. With all-wheel drive and advanced suspension, it delivers precise handling and a smooth ride even at high speeds. The Panamera Turbo S accelerates from 0 to 100 km/h in just 2.9 seconds and reaches a top speed of 325 km/h1. Inside, it offers premium materials, cutting-edge technology, and seating for up to five passengers, making it both thrilling and practical.",
     number: "about 15 thousand.",
     capacity: "5 people",
