@@ -47,9 +47,9 @@ const cars = [
     ]
   },
   {
-    name: "Porsche Cayenne",
+    name: "Porsche Cayenne 958",
     image: "https://i.postimg.cc/L6CH0Y83/1000045155-Photoroom.jpg",
-    details: "The Porsche Cayenne is a luxury SUV that combines sporty performance with everyday practicality. It features powerful engine options, including turbocharged V6s, V8s, and plug-in hybrids. With sharp handling and a refined interior, it delivers a true Porsche driving experience. The Cayenne accelerates quickly and offers advanced technology and safety features. It’s a versatile choice for drivers who want both comfort and excitement.",
+    details: "The Porsche Cayenne 958 is a luxury SUV that combines sporty performance with everyday practicality. It features powerful engine options, including turbocharged V6s, V8s, and plug-in hybrids. With sharp handling and a refined interior, it delivers a true Porsche driving experience. The Cayenne accelerates quickly and offers advanced technology and safety features. It’s a versatile choice for drivers who want both comfort and excitement.",
      number: "about 400 thousand",
     capacity: "5 people",
     price: "95 000 euro",
@@ -63,13 +63,27 @@ const cars = [
     ]
   },
   {
+   name: "Porsche Cayenne E3",
+   image: "https://i.postimg.cc/85MvCGJ1/2764a404-22f2-44ab-af05-fb2818d9827e.jpg",
+   details: "The Porsche Cayenne E3 is the third generation of Porsche’s luxury SUV, introduced in 2017. It combines sporty performance with everyday practicality, offering powerful engines and advanced technology. The design is sleek and modern, with a wider stance and refined details that highlight Porsche’s DNA. Inside, the Cayenne E3 features a high-tech cockpit with premium materials and digital displays. It remains one of the most popular choices for drivers who want both performance and comfort in an SUV.",
+  number: "About 100 thousand",
+  capacity: "5 people",
+  price: "90 000",
+  motor: "3.0L twin-turbo flat-6",
+  range: "70-75",
+  speed: "4,7",
+  extraImg: [
+    "https://i.postimg.cc/vmMTvncH/2f0a1c3d-e114-49cf-9602-663a9317494e.jpg",
+  ]
+  },
+  {
     name: "Porsche 911 Carrera S",
     image: "https://i.postimg.cc/QthGMhMM/0-Photoroom.jpg",
     details: "Porsche 911 Carrera S is a perfect blend of everyday comfort and sports car performance. It features a 3.0-liter twin-turbo boxer engine delivering 480 horsepower and accelerating from 0 to 100 km/h in just 3.3 seconds. The sleek design, wide stance, and signature headlights give it a timeless yet aggressive look. Inside, the cabin offers advanced tech, premium materials, and a driver-focused layout. Whether on winding roads or city streets, the Carrera S delivers precision, excitement, and unmistakable Porsche character.",
       number: "about 200 thousand",
     capacity: "4 people",
     price: "140 000",
-    motor: " 3.0L twin-turbo flat-6",
+    motor: "3.0L twin-turbo flat-6",
     range: "500-600",
     speed: "3,7",
     extraImg: [
