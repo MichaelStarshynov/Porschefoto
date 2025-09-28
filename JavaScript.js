@@ -153,6 +153,29 @@ const cars = [
       "https://i.postimg.cc/VLHfXgN5/96741949-8831-4b74-8368-5ded75680c3e.jpg",
       "https://i.postimg.cc/50xdhQ0d/5d5c517d-2768-45e5-bcd5-532dee04aba4.jpg",
     ]
+  },
+  {
+    name: "Porsche Targa",
+    image: "https://i.postimg.cc/mgbn2W4h/0f06fb06-1cee-4ce0-96a1-5447c48c920a.jpg",
+    details: "The Porsche Targa is a unique sports car that combines the thrill of a convertible with the stability of a coupe. Its signature feature is the removable roof panel, allowing for open-air driving without compromising the car’s structure. The Targa is powered by a range of flat-six engines, delivering exhilarating performance and precise handling. Inside, it offers a luxurious cabin with modern technology and driver-focused ergonomics. Overall, the Porsche Targa blends style, performance, and versatility in a timeless design.",
+    number: "90 000",
+    capacity: "5 people",
+    price: "95 000",
+    motor: "Turbo 2.0 L inline-4",
+    range: "?",
+    speed: "7,5",
+    extraImg: [
+      "https://i.postimg.cc/XJ0HhRsd/15d5bcdb-4bcd-4dc1-b4e8-fa2cd2faa743.jpg",
+       "https://i.postimg.cc/vTZzwbfY/83dd9806-b0ef-4a9f-a463-a2d2b155f3de.jpg",
+       "https://i.postimg.cc/RhWHTFws/a89eb7c8-87df-4407-8483-cb9020f2aaed.jpg",
+  
+    ]
+  
+  
+  
+  
+  
+  
   }
 ];
 
