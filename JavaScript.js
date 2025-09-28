@@ -121,7 +121,39 @@ const cars = [
    "https://i.postimg.cc/Mp0cBRt0/c95ca98d-1bd4-4878-9d77-bfb09d955684.jpg",
   ]
 },
-  
+  {
+    name: "Porsche Boxster 987",
+    image: "https://i.postimg.cc/mk2LyH4P/27f9972f-6529-4b8c-884f-8f89b01cd839.jpg",
+    details: "The Porsche Boxster 987 is a stylish mid-engine sports car known for its exceptional handling and performance. It features a sleek, aerodynamic design with a comfortable two-seat interior. The 987 offers a range of flat-six engines, delivering a thrilling driving experience. Its convertible top allows for open-air driving, perfect for enjoying scenic routes. Overall, the Boxster 987 combines Porsche’s engineering excellence with everyday usability and fun.",
+    number: "80 thousand",
+    capacity: "2 people",
+    price: "30 000",
+    motor: "3.2 L M97.26 Flat-Six Boxer Engine, 280 hp",
+    range: "580-640",
+    speed: "5,5",
+    extraImg: [
+       "https://i.postimg.cc/VL48F6Zf/bfce1a83-2afa-44e9-ac9d-a151d1b7cb91.jpg",
+       "https://i.postimg.cc/9QzvtB7Q/d5896106-6161-4beb-9b3b-ce68a4e0d0b5.jpg",
+       "https://i.postimg.cc/2y2Knqj1/71f75cd2-1290-42c9-9da8-2c517a72a971.jpg",
+    ]
+
+
+  },
+  {
+    name: "Porsche Cayenne E3 Hybrid",
+    image:"https://i.postimg.cc/MG3JJFJJ/5b1d3321-631f-41d2-9cd7-1826cba22c36.jpg",
+    details: "The Porsche Cayenne E3 Hybrid is a luxury SUV that blends performance with efficiency. Its hybrid powertrain delivers strong acceleration while reducing fuel consumption. The interior is spacious and refined, featuring advanced technology and premium materials. With all-wheel drive and adaptive suspension, it handles both city streets and off-road terrain with ease. Overall, the Cayenne E3 Hybrid combines Porsche’s sporty DNA with eco-friendly innovation.",
+    number: "50 000",
+    capacity: "5 people",
+    price: "121 900",
+    motor: "V6 motor",
+    range: "90",
+    speed: "4,9",
+    extraImg: [
+      "https://i.postimg.cc/VLHfXgN5/96741949-8831-4b74-8368-5ded75680c3e.jpg",
+      "https://i.postimg.cc/50xdhQ0d/5d5c517d-2768-45e5-bcd5-532dee04aba4.jpg",
+    ]
+  }
 ];
 
 // Создаём заголовок
@@ -143,7 +175,7 @@ document.body.appendChild(content);
 const pages = {
   home: {
     title: "Welcome at the world of Porsche!",
-    text: `Welcome at the site world of Porsches! <br><br><button onclick="showPage('gallery')">Go to gallery</button>`
+    text: `Welcome at the site world of Porsches! <br><p><strong>Goal: </strong>100 photos.</p><button onclick="showPage('gallery')">Go to gallery</button>`
   },
   gallery: {
     title: "Porsche foto's:"
@@ -218,13 +250,13 @@ function showCarDetails(car) {
 
   setTimeout(() => {
     let html = `
-      <button id="back-btn">← Назад</button>
+      <button id="back-btn">← Back</button>
       <h1>${car.name}</h1>
       <img src="${car.image}" alt="${car.name}" class="main-car-img">
       <p>${car.details}</p>
       <br>
       <div class="info" style="text-align: center;">
-      <h3>Specifications</h3>
+      <h3>Specifications:</h3>
       <p><strong>Number of ${car.name} produced:</strong> ${car.number}.</p>
       <p><strong>Capacity:</strong> ${car.capacity}.</p>
       <p><strong>Price:</strong> ${car.price} euro.</p>
