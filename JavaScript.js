@@ -8,7 +8,7 @@ const cars = [
     price: "106 000",
     motor: "electric",
     range: "430 ",
-    speed: " 5,4 seconds",
+    speed: "230",
     extraImg: [
       "https://i.postimg.cc/Nf76DQvj/IMG-20250717-161620.jpg"
     ]
@@ -22,7 +22,7 @@ const cars = [
     price: "120 000",
     motor: "V6 2.9L biturbo",
     range: "600-800",
-    speed: "5,5",
+    speed: "270",
     extraImg: [
       "https://i.postimg.cc/jjK69r1Z/69039366-ecbc-4d9b-ad72-043798c4c988.jpg",
       "https://i.postimg.cc/44M6GcMK/bfa759a7-ca9c-422c-8383-8cd7eb6eb0ec.jpg",
@@ -38,7 +38,7 @@ const cars = [
     price: "120 000",
     motor: "V6 2.9L biturbo",
     range: "600-800",
-    speed: "5,5",  
+    speed: "270",  
     extraImg: [
       "https://i.postimg.cc/02KygKRy/999ff8a9-d2d5-40f7-bf27-a40170fd6e5d.jpg",
        "https://i.postimg.cc/qRkWNnhK/422d882d-4995-4f8b-853e-31e4771cc83b.jpg",
@@ -55,7 +55,7 @@ const cars = [
     price: "95 000 euro",
     motor: "V6 3.0L turbo",
     range: "600-700",
-    speed: "6,0",
+    speed: "230",
     extraImg: [
       "https://i.postimg.cc/Z5r3SMtn/330b5350-5890-441c-9474-eaeed1f1a248.jpg",
       "https://i.postimg.cc/qMqKj8DW/0.jpg",
@@ -71,7 +71,7 @@ const cars = [
   price: "90 000",
   motor: "3.0L twin-turbo flat-6",
   range: "70-75",
-  speed: "4,7",
+  speed: "253",
   extraImg: [
     "https://i.postimg.cc/vmMTvncH/2f0a1c3d-e114-49cf-9602-663a9317494e.jpg",
   ]
@@ -85,7 +85,7 @@ const cars = [
     price: "140 000",
     motor: "3.0L twin-turbo flat-6",
     range: "500-600",
-    speed: "3,7",
+    speed: "308",
     extraImg: [
       "https://i.postimg.cc/BbbnWjfV/0.jpg",
       "https://i.postimg.cc/YS72rnwg/4f6ed8d1-eb04-477b-b820-9b09f08139c3.jpg",
@@ -101,7 +101,7 @@ const cars = [
     price: "75 000",
     motor: "2.0L turbo inline-4",
     range: "500-600 km",
-    speed: "6,5",
+    speed: "257",
     extraImg: [
    "https://i.postimg.cc/vZP7dQ3S/59cfe1c0-c3fe-456b-8246-d1f9dea2f9a0.jpg"
   ]
@@ -115,7 +115,7 @@ const cars = [
     price: "180 000",
     motor: "V8 4.0 biturbo, 630 л.с.",
     range: "600-700",
-    speed: "2,9",
+    speed: "306",
     extraImg: [
    "https://i.postimg.cc/KYFMpQ4s/84b83e78-d009-4e00-9568-6edcbf5556cb.jpg",
    "https://i.postimg.cc/Mp0cBRt0/c95ca98d-1bd4-4878-9d77-bfb09d955684.jpg",
@@ -130,7 +130,7 @@ const cars = [
     price: "30 000",
     motor: "3.2 L M97.26 Flat-Six Boxer Engine, 280 hp",
     range: "580-640",
-    speed: "5,5",
+    speed: "256",
     extraImg: [
        "https://i.postimg.cc/VL48F6Zf/bfce1a83-2afa-44e9-ac9d-a151d1b7cb91.jpg",
        "https://i.postimg.cc/9QzvtB7Q/d5896106-6161-4beb-9b3b-ce68a4e0d0b5.jpg",
@@ -148,34 +148,42 @@ const cars = [
     price: "121 900",
     motor: "V6 motor",
     range: "90",
-    speed: "4,9",
+    speed: "254",
     extraImg: [
       "https://i.postimg.cc/VLHfXgN5/96741949-8831-4b74-8368-5ded75680c3e.jpg",
       "https://i.postimg.cc/50xdhQ0d/5d5c517d-2768-45e5-bcd5-532dee04aba4.jpg",
     ]
   },
   {
-    name: "Porsche Targa",
+    name: "Porsche 944 Targa",
     image: "https://i.postimg.cc/mgbn2W4h/0f06fb06-1cee-4ce0-96a1-5447c48c920a.jpg",
-    details: "The Porsche Targa is a unique sports car that combines the thrill of a convertible with the stability of a coupe. Its signature feature is the removable roof panel, allowing for open-air driving without compromising the car’s structure. The Targa is powered by a range of flat-six engines, delivering exhilarating performance and precise handling. Inside, it offers a luxurious cabin with modern technology and driver-focused ergonomics. Overall, the Porsche Targa blends style, performance, and versatility in a timeless design.",
+    details: "The Porsche Targa 944 is a unique sports car that combines the thrill of a convertible with the stability of a coupe. Its signature feature is the removable roof panel, allowing for open-air driving without compromising the car’s structure. The Targa is powered by a range of flat-six engines, delivering exhilarating performance and precise handling. Inside, it offers a luxurious cabin with modern technology and driver-focused ergonomics. Overall, the Porsche Targa blends style, performance, and versatility in a timeless design.",
     number: "90 000",
     capacity: "5 people",
     price: "95 000",
     motor: "Turbo 2.0 L inline-4",
     range: "?",
-    speed: "7,5",
+    speed: "220",
     extraImg: [
       "https://i.postimg.cc/XJ0HhRsd/15d5bcdb-4bcd-4dc1-b4e8-fa2cd2faa743.jpg",
        "https://i.postimg.cc/vTZzwbfY/83dd9806-b0ef-4a9f-a463-a2d2b155f3de.jpg",
        "https://i.postimg.cc/RhWHTFws/a89eb7c8-87df-4407-8483-cb9020f2aaed.jpg",
   
     ]
-  
-  
-  
-  
-  
-  
+  },
+  {
+    name: "Porsche 911 Cabrio",
+    image: "https://i.postimg.cc/3x7SnBST/aa345a8d-45ef-4b72-827d-a4cfcb95ed58.jpg",
+    details: "The Porsche 911 Cabriolet is a masterpiece of German engineering and design. It combines the thrill of open-top driving with the power of a true sports car. Its sleek curves and iconic headlights make it instantly recognizable. The interior offers luxury and advanced technology for a perfect driving experience. With its roaring engine, the 911 Cabrio delivers pure excitement on every road.",
+    number: "",
+    capacity: "4 people",
+    price: "95 000",
+    motor: "3.0-liter twin-turbo",
+    range: "625",
+    speed: "293",
+    extraImg: [
+      "https://i.postimg.cc/6pf9mMBG/0d68a587-96f0-4371-a886-c6f6c0dd8ae5.jpg"
+    ]
   }
 ];
 
@@ -285,7 +293,7 @@ function showCarDetails(car) {
       <p><strong>Price:</strong> ${car.price} euro.</p>
       <p><strong>Motor:</strong> ${car.motor}.</p>
       <p><strong>Range:</strong> ${car.range} km.</p>
-      <p><strong>Acceleration to 100 km/h:</strong> ${car.speed} seconds.</p>
+      <p><strong>Max speed:</strong> ${car.speed} km/hour.</p>
       </div>
     `;
 
