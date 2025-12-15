@@ -47,23 +47,7 @@ const cars = [
     ]
   },
   {
-    name: "Porsche Cayenne 958",
-    image: "https://i.postimg.cc/L6CH0Y83/1000045155-Photoroom.jpg",
-    details: "The Porsche Cayenne 958 is a luxury SUV that combines sporty performance with everyday practicality. It features powerful engine options, including turbocharged V6s, V8s, and plug-in hybrids. With sharp handling and a refined interior, it delivers a true Porsche driving experience. The Cayenne accelerates quickly and offers advanced technology and safety features. It’s a versatile choice for drivers who want both comfort and excitement.",
-     number: "about 400 thousand",
-    capacity: "5 people",
-    price: "95 000 euro",
-    motor: "V6 3.0L turbo",
-    range: "600-700",
-    speed: "230",
-    extraImg: [
-      "https://i.postimg.cc/Z5r3SMtn/330b5350-5890-441c-9474-eaeed1f1a248.jpg",
-      "https://i.postimg.cc/qMqKj8DW/0.jpg",
-      "https://i.postimg.cc/ZKXWHXdy/e04cfc6c-928f-4c41-a1d8-0c5c26cb7b96.jpg"
-    ]
-  },
-  {
-   name: "Porsche Cayenne E3",
+   name: "Porsche Cayenne ",
    image: "https://i.postimg.cc/85MvCGJ1/2764a404-22f2-44ab-af05-fb2818d9827e.jpg",
    details: "The Porsche Cayenne E3 is the third generation of Porsche’s luxury SUV, introduced in 2017. It combines sporty performance with everyday practicality, offering powerful engines and advanced technology. The design is sleek and modern, with a wider stance and refined details that highlight Porsche’s DNA. Inside, the Cayenne E3 features a high-tech cockpit with premium materials and digital displays. It remains one of the most popular choices for drivers who want both performance and comfort in an SUV.",
   number: "About 100 thousand",
@@ -107,21 +91,6 @@ const cars = [
   ]
   },
   {
-    name: "Porsche Panamera S-Turbo",
-    image: "https://i.postimg.cc/8Pj8cyTL/3abfff08-bd1a-4406-acbd-e81afa08d94b-Photoroom.jpg",
-    details: "The Porsche Panamera Turbo S is a high-performance luxury sedan that blends speed with sophistication. It features a 4.0-liter twin-turbo V8 engine producing up to 690 horsepower in the E-Hybrid version. With all-wheel drive and advanced suspension, it delivers precise handling and a smooth ride even at high speeds. The Panamera Turbo S accelerates from 0 to 100 km/h in just 2.9 seconds and reaches a top speed of 325 km/h1. Inside, it offers premium materials, cutting-edge technology, and seating for up to five passengers, making it both thrilling and practical.",
-    number: "about 15 thousand.",
-    capacity: "5 people",
-    price: "180 000",
-    motor: "V8 4.0 biturbo, 630 л.с.",
-    range: "600-700",
-    speed: "306",
-    extraImg: [
-   "https://i.postimg.cc/KYFMpQ4s/84b83e78-d009-4e00-9568-6edcbf5556cb.jpg",
-   "https://i.postimg.cc/Mp0cBRt0/c95ca98d-1bd4-4878-9d77-bfb09d955684.jpg",
-  ]
-},
-  {
     name: "Porsche Boxster 987",
     image: "https://i.postimg.cc/mk2LyH4P/27f9972f-6529-4b8c-884f-8f89b01cd839.jpg",
     details: "The Porsche Boxster 987 is a stylish mid-engine sports car known for its exceptional handling and performance. It features a sleek, aerodynamic design with a comfortable two-seat interior. The 987 offers a range of flat-six engines, delivering a thrilling driving experience. Its convertible top allows for open-air driving, perfect for enjoying scenic routes. Overall, the Boxster 987 combines Porsche’s engineering excellence with everyday usability and fun.",
@@ -138,21 +107,6 @@ const cars = [
     ]
 
 
-  },
-  {
-    name: "Porsche Cayenne E3 Hybrid",
-    image:"https://i.postimg.cc/MG3JJFJJ/5b1d3321-631f-41d2-9cd7-1826cba22c36.jpg",
-    details: "The Porsche Cayenne E3 Hybrid is a luxury SUV that blends performance with efficiency. Its hybrid powertrain delivers strong acceleration while reducing fuel consumption. The interior is spacious and refined, featuring advanced technology and premium materials. With all-wheel drive and adaptive suspension, it handles both city streets and off-road terrain with ease. Overall, the Cayenne E3 Hybrid combines Porsche’s sporty DNA with eco-friendly innovation.",
-    number: "50 000",
-    capacity: "5 people",
-    price: "121 900",
-    motor: "V6 motor",
-    range: "90",
-    speed: "254",
-    extraImg: [
-      "https://i.postimg.cc/VLHfXgN5/96741949-8831-4b74-8368-5ded75680c3e.jpg",
-      "https://i.postimg.cc/50xdhQ0d/5d5c517d-2768-45e5-bcd5-532dee04aba4.jpg",
-    ]
   },
   {
     name: "Porsche 944 Targa",
@@ -183,6 +137,20 @@ const cars = [
     speed: "293",
     extraImg: [
       "https://i.postimg.cc/6pf9mMBG/0d68a587-96f0-4371-a886-c6f6c0dd8ae5.jpg"
+    ]
+  },
+  {
+    name: "Porsche 718 Cayman GT4 RS",
+    image: "https://i.postimg.cc/5t96qqvs/e7bd34cb-c452-4b9b-ab87-a8d7dc3ecf83.png",
+    details: "The Porsche Cayman GT4 RS is a high-performance sports car engineered for precision on both road and track. Its naturally aspirated flat-six engine delivers exhilarating power with an unmistakable Porsche soundtrack. The lightweight chassis and aerodynamics are meticulously tuned to provide exceptional handling and cornering balance. Every detail, from the brakes to the suspension, reflects Porsche’s commitment to driving excellence. With its focused character and thrilling performance, the GT4 RS sets a new standard in the mid-engine sports car category.",
+    number: "9600",
+    capacity: "2 people",
+    price: "265 000",
+    motor: "4.0-liter naturally aspirated flat-six engine",
+    range: "400-450",
+    speed: "315",
+    extraImg: [
+   "https://i.postimg.cc/t4KBsJxY/3e126418-77da-4f51-b693-4741d8c50fe8.png"
     ]
   }
 ];
